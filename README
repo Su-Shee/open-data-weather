@@ -1,0 +1,35 @@
+To install and run the little Perl hack "Naive Bayes", install
+
+cpan Algorithm::NaiveBayes
+
+and run:
+
+./naivebayes.pl auf.
+
+The Ruby script can be run as
+
+./kmeans.rb
+
+and needs the Ruby gem "kmeans", which can easily be installed via
+
+gem install kmeans
+
+
+The (as usal extremely short) R script "r-weather.R" requires the two
+packages:
+
+install.packages('xts')
+install.packages('lubridate')
+
+When it comes to Python's SciPy/NumPy/Pandas stack, it gets more complicated.
+Run the script itself via
+
+./pandas-weather.py
+
+BUT: You'll need either Pandas/ScyPy/NumPy via your distribution's packages OR
+the ready-made "Anaconda": https://store.continuum.io/cshop/anaconda/ or
+alternatively "Canopy" of Enthought:
+https://www.enthought.com/products/canopy/
+
+Details about the manual installation can be found here:
+http://www.scipy.org/install.html
